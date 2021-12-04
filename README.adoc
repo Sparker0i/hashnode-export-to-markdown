@@ -1,7 +1,3 @@
-= Hashnode-Export to Markdown
+= Hashnode Export to Markdown
 
-Convert Hashnode export JSON into 
-
-* single markdown files 
-** with frontmatter 
-* and save downloads of your cover images
+Convert your `.json` export from Hashnode back into individual `.md` files including frontmatter and image downloads of you cover images from Hashnode.
