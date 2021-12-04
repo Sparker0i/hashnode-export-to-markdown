@@ -1,3 +1,15 @@
 = Hashnode Export to Markdown
 
 Convert your `.json` export from Hashnode back into individual `.md` files including frontmatter and image downloads of you cover images from Hashnode.
+
+== Configuration
+[source, python]
+----
+export_path = 'devid-stories.json' # Hashnode export file
+media_path = 'posts/media' # directory, where cover image should be saved to
+posts_path = '../hashnode-articles/' # directory, where articles should be saved to
+config = {
+    'domain': 'xn--david-9u04d.to', # frontmatter domain
+    'media_url': 'https://david.wolf.gdn/media', # new prefix for the downloaded media files
+}
+----
